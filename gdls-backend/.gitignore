@@ -1,0 +1,9 @@
+node_modules
+.idea
+database.sqlite
+.env
+**/*/.DS_Store
+src/admin/build
+graphql.graphql
+graphql.schema.json
+build

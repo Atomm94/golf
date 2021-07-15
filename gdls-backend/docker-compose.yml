@@ -1,0 +1,12 @@
+version: '3'
+services:
+  gdls-backend:
+    container_name: gdls-backend
+    image: postgres:10-alpine
+    restart: always
+    ports:
+      - "55836:5432"
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: 1234
+      POSTGRES_DB: gdls-backend

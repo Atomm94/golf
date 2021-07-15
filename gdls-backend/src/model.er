@@ -1,0 +1,82 @@
+User:
+  - email?: string varchar
+  + passwordHash?: string varchar
+  x password
+  - firstName
+  - lastName
+  + role: ADMIN|USER
+  - location?: string varchar
+  - description?: string varchar
+  - handicap: number integer
+  - phone?: string varchar
+
+File:
+  - contentBase64: string text
+  + slug
+
+User has one File as avatar?
+File has one User as user?
+
+User has one File as dumbHatPicture?
+File has one User as dumbHatUser?
+
+BetsGroup:
+  - name: string varchar
+
+User has many BetsGroup as betsGroups
+BetsGroup has one User as user
+
+Bet:
+  - date: Date
+  - amount: number integer
+  - course: string varchar
+  - currentAdvantage?: number integer
+  - nextAdvantage?: number integer
+
+BetsGroup has many Bet as bets
+Bet has one BetsGroup as betsGroup
+
+Round:
+  - score: number integer
+
+User has many Round as rounds
+Round has one User as user
+
+Week:
+  - weekNumber: number integer
+  - isActive: boolean
+
+Week has many Round as rounds
+Round has one Week as week = context.activeWeek
+
+Year:
+  - year: number integer
+  - isActive: boolean
+
+Year has many Week as weeks
+Week has one Year as year = context.activeYear
+
+HoleInOne:
+  - date: Date
+  - courseName
+  - holeNumber: number
+  - yardage: number
+
+Club:
+  - name
+
+HoleInOne has one Club as club
+Club has many HoleInOne as holesInOne
+
+HoleInOne has one User as winner = context.user
+User has many HoleInOne as holesInOne
+
+HoleInOnePaymentObligation:
+  - didPay: boolean
+  - amountToPay: number
+
+User has many HoleInOnePaymentObligation as paymentObligations
+HoleInOnePaymentObligation has one User as userWithPaymentObligation
+
+HoleInOnePaymentObligation has one HoleInOne as holeInOne
+HoleInOne has many HoleInOnePaymentObligation as paymentObligations

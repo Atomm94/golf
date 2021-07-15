@@ -1,0 +1,636 @@
+type Bet {
+  id: EntityId!
+  date: DateTime!
+  amount: Float!
+  course: String!
+  currentAdvantage: Float
+  nextAdvantage: Float
+  betsGroup: BetsGroup!
+  createdAt: DateTime!
+  updatedAt: DateTime!
+}
+
+input BetCreateInput {
+  date: DateTime!
+  amount: Float!
+  course: String!
+  currentAdvantage: Float
+  nextAdvantage: Float
+  betsGroup: BetsGroupNestedInput!
+}
+
+input BetEditInput {
+  id: EntityId!
+  date: DateTime
+  amount: Float
+  course: String
+  currentAdvantage: Float
+  nextAdvantage: Float
+  betsGroup: BetsGroupNestedInput
+}
+
+input BetSearchInput {
+  id: EntityId
+  date: DateTime
+  amount: Float
+  course: String
+  currentAdvantage: Float
+  nextAdvantage: Float
+  betsGroup: ReferenceSearchInput
+}
+
+input BetSearchOrderInput {
+  id: OrderEnum
+  date: OrderEnum
+  amount: OrderEnum
+  course: OrderEnum
+  currentAdvantage: OrderEnum
+  nextAdvantage: OrderEnum
+  betsGroup: OrderEnum
+}
+
+type BetsGroup {
+  id: EntityId!
+  name: String!
+  user: User!
+  bets: [Bet!]!
+  createdAt: DateTime!
+  updatedAt: DateTime!
+}
+
+input BetsGroupCreateInput {
+  name: String!
+  user: UserNestedInput!
+}
+
+input BetsGroupEditInput {
+  id: EntityId!
+  name: String
+  user: UserNestedInput
+}
+
+input BetsGroupNestedInput {
+  id: EntityId
+  name: String
+  user: UserNestedInput
+}
+
+input BetsGroupSearchInput {
+  id: EntityId
+  name: String
+  user: ReferenceSearchInput
+}
+
+input BetsGroupSearchOrderInput {
+  id: OrderEnum
+  name: OrderEnum
+  user: OrderEnum
+}
+
+type Club {
+  id: EntityId!
+  name: String!
+  holesInOne: [HoleInOne!]!
+  createdAt: DateTime!
+  updatedAt: DateTime!
+}
+
+input ClubCreateInput {
+  name: String!
+}
+
+input ClubEditInput {
+  id: EntityId!
+  name: String
+}
+
+input ClubNestedInput {
+  id: EntityId
+  name: String
+}
+
+input ClubSearchInput {
+  id: EntityId
+  name: String
+}
+
+input ClubSearchOrderInput {
+  id: OrderEnum
+  name: OrderEnum
+}
+
+"""
+The javascript `Date` as string. Type represents date and time as the ISO Date string.
+"""
+scalar DateTime
+
+"""ID scalar type"""
+scalar EntityId
+
+type File {
+  id: EntityId!
+  contentBase64: String!
+  user: User
+  dumbHatUser: User
+  createdAt: DateTime!
+  updatedAt: DateTime!
+  url: String!
+  thumbUrl: String!
+}
+
+input FileCreateInput {
+  contentBase64: String!
+  user: UserNestedInput
+  dumbHatUser: UserNestedInput
+}
+
+input FileEditInput {
+  id: EntityId!
+  contentBase64: String
+  user: UserNestedInput
+  dumbHatUser: UserNestedInput
+}
+
+input FileNestedInput {
+  id: EntityId
+  contentBase64: String
+  user: UserNestedInput
+  dumbHatUser: UserNestedInput
+}
+
+input FileSearchInput {
+  id: EntityId
+  contentBase64: String
+  user: ReferenceSearchInput
+  dumbHatUser: ReferenceSearchInput
+}
+
+input FileSearchOrderInput {
+  id: OrderEnum
+  contentBase64: OrderEnum
+  user: OrderEnum
+  dumbHatUser: OrderEnum
+}
+
+type HoleInOne {
+  id: EntityId!
+  date: DateTime!
+  courseName: String!
+  holeNumber: Float!
+  yardage: Float!
+  club: Club!
+  winner: User!
+  paymentObligations: [HoleInOnePaymentObligation!]!
+  createdAt: DateTime!
+  updatedAt: DateTime!
+  totalAmountPaid: Float!
+}
+
+input HoleInOneCreateInput {
+  date: DateTime!
+  courseName: String!
+  holeNumber: Float!
+  yardage: Float!
+  club: ClubNestedInput!
+}
+
+input HoleInOneEditInput {
+  id: EntityId!
+  date: DateTime
+  courseName: String
+  holeNumber: Float
+  yardage: Float
+  club: ClubNestedInput
+}
+
+input HoleInOneNestedInput {
+  id: EntityId
+  date: DateTime
+  courseName: String
+  holeNumber: Float
+  yardage: Float
+  club: ClubNestedInput
+}
+
+type HoleInOnePaymentObligation {
+  id: EntityId!
+  didPay: Boolean!
+  amountToPay: Float!
+  userWithPaymentObligation: User!
+  holeInOne: HoleInOne!
+  createdAt: DateTime!
+  updatedAt: DateTime!
+}
+
+input HoleInOnePaymentObligationCreateInput {
+  didPay: Boolean!
+  amountToPay: Float!
+  userWithPaymentObligation: UserNestedInput!
+  holeInOne: HoleInOneNestedInput!
+}
+
+input HoleInOnePaymentObligationEditInput {
+  id: EntityId!
+  didPay: Boolean
+  amountToPay: Float
+  userWithPaymentObligation: UserNestedInput
+  holeInOne: HoleInOneNestedInput
+}
+
+input HoleInOnePaymentObligationSearchInput {
+  id: EntityId
+  didPay: Boolean
+  amountToPay: Float
+  userWithPaymentObligation: ReferenceSearchInput
+  holeInOne: ReferenceSearchInput
+}
+
+input HoleInOnePaymentObligationSearchOrderInput {
+  id: OrderEnum
+  didPay: OrderEnum
+  amountToPay: OrderEnum
+  userWithPaymentObligation: OrderEnum
+  holeInOne: OrderEnum
+}
+
+input HoleInOneSearchInput {
+  id: EntityId
+  date: DateTime
+  courseName: String
+  holeNumber: Float
+  yardage: Float
+  club: ReferenceSearchInput
+  winner: ReferenceSearchInput
+}
+
+input HoleInOneSearchOrderInput {
+  id: OrderEnum
+  date: OrderEnum
+  courseName: OrderEnum
+  holeNumber: OrderEnum
+  yardage: OrderEnum
+  club: OrderEnum
+  winner: OrderEnum
+}
+
+type LoginResponse {
+  token: String!
+  user: User!
+}
+
+type Mutation {
+  emailRegister(input: UserCreateInput!): LoginResponse!
+  emailLogin(password: String!, email: String!): LoginResponse!
+  logout: Boolean!
+  createBet(input: BetCreateInput!): Bet!
+  updateBet(input: BetEditInput!): Bet!
+  deleteBets(ids: [ID!]!): Boolean!
+  createBetsGroup(input: BetsGroupCreateInput!): BetsGroup!
+  updateBetsGroup(input: BetsGroupEditInput!): BetsGroup!
+  deleteBetsGroups(ids: [ID!]!): Boolean!
+  createClub(input: ClubCreateInput!): Club!
+  updateClub(input: ClubEditInput!): Club!
+  deleteClubs(ids: [ID!]!): Boolean!
+  createFile(input: FileCreateInput!): File!
+  updateFile(input: FileEditInput!): File!
+  deleteFiles(ids: [ID!]!): Boolean!
+  createHoleInOnePaymentObligation(input: HoleInOnePaymentObligationCreateInput!): HoleInOnePaymentObligation!
+  updateHoleInOnePaymentObligation(input: HoleInOnePaymentObligationEditInput!): HoleInOnePaymentObligation!
+  deleteHoleInOnePaymentObligations(ids: [ID!]!): Boolean!
+  createHoleInOne(input: HoleInOneCreateInput!): HoleInOne!
+  updateHoleInOne(input: HoleInOneEditInput!): HoleInOne!
+  deleteHoleInOnes(ids: [ID!]!): Boolean!
+  createRound(input: RoundCreateInput!): Round!
+  updateRound(input: RoundEditInput!): Round!
+  deleteRounds(ids: [ID!]!): Boolean!
+  importUsersCsv(csvUrl: String!): Boolean!
+  createUser(input: UserCreateInput!): User!
+  updateUser(input: UserEditInput!): User!
+  deleteUsers(ids: [ID!]!): Boolean!
+  createWeek(input: WeekCreateInput!): Week!
+  updateWeek(input: WeekEditInput!): Week!
+  deleteWeeks(ids: [ID!]!): Boolean!
+  closeWeek(id: ID!): Boolean!
+  closeActiveWeek: Boolean!
+  importWeek(weekNumber: Float!, name: String!): Boolean!
+  createYear(input: YearCreateInput!): Year!
+  updateYear(input: YearEditInput!): Year!
+  deleteYears(ids: [ID!]!): Boolean!
+}
+
+enum OrderEnum {
+  DESC
+  ASC
+}
+
+type PaginatedBetResponse {
+  items: [Bet!]!
+  total: Int!
+  hasMore: Boolean!
+  nextPage: Int!
+}
+
+type PaginatedBetsGroupResponse {
+  items: [BetsGroup!]!
+  total: Int!
+  hasMore: Boolean!
+  nextPage: Int!
+}
+
+type PaginatedClubResponse {
+  items: [Club!]!
+  total: Int!
+  hasMore: Boolean!
+  nextPage: Int!
+}
+
+type PaginatedFileResponse {
+  items: [File!]!
+  total: Int!
+  hasMore: Boolean!
+  nextPage: Int!
+}
+
+type PaginatedHoleInOnePaymentObligationResponse {
+  items: [HoleInOnePaymentObligation!]!
+  total: Int!
+  hasMore: Boolean!
+  nextPage: Int!
+}
+
+type PaginatedHoleInOneResponse {
+  items: [HoleInOne!]!
+  total: Int!
+  hasMore: Boolean!
+  nextPage: Int!
+}
+
+type PaginatedRoundResponse {
+  items: [Round!]!
+  total: Int!
+  hasMore: Boolean!
+  nextPage: Int!
+}
+
+type PaginatedUserResponse {
+  items: [User!]!
+  total: Int!
+  hasMore: Boolean!
+  nextPage: Int!
+}
+
+type PaginatedWeekResponse {
+  items: [Week!]!
+  total: Int!
+  hasMore: Boolean!
+  nextPage: Int!
+}
+
+type PaginatedYearResponse {
+  items: [Year!]!
+  total: Int!
+  hasMore: Boolean!
+  nextPage: Int!
+}
+
+type Query {
+  me: User
+  bet(id: EntityId!): Bet!
+  searchBets(order: [BetSearchOrderInput!], take: Int, skip: Int, search: BetSearchInput): PaginatedBetResponse!
+  bets: [Bet!]!
+  betsGroup(id: EntityId!): BetsGroup!
+  searchBetsGroups(order: [BetsGroupSearchOrderInput!], take: Int, skip: Int, search: BetsGroupSearchInput): PaginatedBetsGroupResponse!
+  betsGroups: [BetsGroup!]!
+  club(id: EntityId!): Club!
+  searchClubs(order: [ClubSearchOrderInput!], take: Int, skip: Int, search: ClubSearchInput): PaginatedClubResponse!
+  clubs: [Club!]!
+  file(id: EntityId!): File!
+  searchFiles(order: [FileSearchOrderInput!], take: Int, skip: Int, search: FileSearchInput): PaginatedFileResponse!
+  files: [File!]!
+  holeInOnePaymentObligation(id: EntityId!): HoleInOnePaymentObligation!
+  searchHoleInOnePaymentObligations(order: [HoleInOnePaymentObligationSearchOrderInput!], take: Int, skip: Int, search: HoleInOnePaymentObligationSearchInput): PaginatedHoleInOnePaymentObligationResponse!
+  holeInOnePaymentObligations: [HoleInOnePaymentObligation!]!
+  holeInOne(id: EntityId!): HoleInOne!
+  searchHoleInOnes(order: [HoleInOneSearchOrderInput!], take: Int, skip: Int, search: HoleInOneSearchInput): PaginatedHoleInOneResponse!
+  holeInOnes: [HoleInOne!]!
+  round(id: EntityId!): Round!
+  searchRounds(order: [RoundSearchOrderInput!], take: Int, skip: Int, search: RoundSearchInput): PaginatedRoundResponse!
+  rounds: [Round!]!
+  user(id: EntityId!): User!
+  searchUsers(order: [UserSearchOrderInput!], take: Int, skip: Int, search: UserSearchInput): PaginatedUserResponse!
+  users: [User!]!
+  searchUsersByName(name: String!): [User!]!
+  week(id: EntityId!): Week!
+  searchWeeks(order: [WeekSearchOrderInput!], take: Int, skip: Int, search: WeekSearchInput): PaginatedWeekResponse!
+  weeks: [Week!]!
+  activeWeek: Week!
+  lastRoundsWeek: Week!
+  year(id: EntityId!): Year!
+  searchYears(order: [YearSearchOrderInput!], take: Int, skip: Int, search: YearSearchInput): PaginatedYearResponse!
+  years: [Year!]!
+  activeYear: Year!
+}
+
+input ReferenceSearchInput {
+  id: EntityId
+}
+
+type Round {
+  id: EntityId!
+  score: Float!
+  user: User!
+  week: Week!
+  createdAt: DateTime!
+  updatedAt: DateTime!
+}
+
+input RoundCreateInput {
+  score: Float!
+  user: UserNestedInput!
+  weekNumber: Float
+  year: Float
+}
+
+input RoundEditInput {
+  id: EntityId!
+  score: Float
+  user: UserNestedInput
+}
+
+input RoundSearchInput {
+  id: EntityId
+  score: Float
+  user: ReferenceSearchInput
+  week: ReferenceSearchInput
+}
+
+input RoundSearchOrderInput {
+  id: OrderEnum
+  score: OrderEnum
+  user: OrderEnum
+  week: OrderEnum
+}
+
+type User {
+  id: EntityId!
+  email: String
+  firstName: String!
+  lastName: String!
+  location: String
+  description: String
+  handicap: Float!
+  phone: String
+  betsGroups: [BetsGroup!]!
+  rounds: [Round!]!
+  holesInOne: [HoleInOne!]!
+  paymentObligations: [HoleInOnePaymentObligation!]!
+  avatar: File
+  dumbHatPicture: File
+  createdAt: DateTime!
+  updatedAt: DateTime!
+  money: Float!
+  winCount: Float!
+  loseCount: Float!
+  losePercentage: Float!
+  winPercentage: Float!
+  finishedRoundsCount: Float!
+  averageScore: Float!
+}
+
+input UserCreateInput {
+  email: String
+  password: String!
+  firstName: String!
+  lastName: String!
+  location: String
+  description: String
+  handicap: Float!
+  phone: String
+  avatar: FileNestedInput
+  dumbHatPicture: FileNestedInput
+  money: Float!
+}
+
+input UserEditInput {
+  id: EntityId!
+  email: String
+  password: String
+  firstName: String
+  lastName: String
+  location: String
+  description: String
+  handicap: Float
+  phone: String
+  avatar: FileNestedInput
+  dumbHatPicture: FileNestedInput
+  money: Float
+}
+
+input UserNestedInput {
+  id: EntityId
+  email: String
+  password: String
+  firstName: String
+  lastName: String
+  location: String
+  description: String
+  handicap: Float
+  phone: String
+  avatar: FileNestedInput
+  dumbHatPicture: FileNestedInput
+}
+
+input UserSearchInput {
+  id: EntityId
+  email: String
+  password: String
+  firstName: String
+  lastName: String
+  location: String
+  description: String
+  handicap: Float
+  phone: String
+  avatar: ReferenceSearchInput
+  dumbHatPicture: ReferenceSearchInput
+}
+
+input UserSearchOrderInput {
+  id: OrderEnum
+  email: OrderEnum
+  password: OrderEnum
+  firstName: OrderEnum
+  lastName: OrderEnum
+  location: OrderEnum
+  description: OrderEnum
+  handicap: OrderEnum
+  phone: OrderEnum
+  avatar: OrderEnum
+  dumbHatPicture: OrderEnum
+}
+
+type Week {
+  id: EntityId!
+  weekNumber: Float!
+  isActive: Boolean!
+  year: Year!
+  rounds: [Round!]!
+  createdAt: DateTime!
+  updatedAt: DateTime!
+}
+
+input WeekCreateInput {
+  weekNumber: Float!
+  isActive: Boolean!
+}
+
+input WeekEditInput {
+  id: EntityId!
+  weekNumber: Float
+  isActive: Boolean
+}
+
+input WeekSearchInput {
+  id: EntityId
+  weekNumber: Float
+  isActive: Boolean
+  year: ReferenceSearchInput
+}
+
+input WeekSearchOrderInput {
+  id: OrderEnum
+  weekNumber: OrderEnum
+  isActive: OrderEnum
+  year: OrderEnum
+}
+
+type Year {
+  id: EntityId!
+  year: Float!
+  isActive: Boolean!
+  weeks: [Week!]!
+  createdAt: DateTime!
+  updatedAt: DateTime!
+}
+
+input YearCreateInput {
+  year: Float!
+  isActive: Boolean!
+}
+
+input YearEditInput {
+  id: EntityId!
+  year: Float
+  isActive: Boolean
+}
+
+input YearSearchInput {
+  id: EntityId
+  year: Float
+  isActive: Boolean
+}
+
+input YearSearchOrderInput {
+  id: OrderEnum
+  year: OrderEnum
+  isActive: OrderEnum
+}

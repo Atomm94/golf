@@ -1,0 +1,2958 @@
+{
+  "data": {
+    "rounds": [
+      {
+        "id": "862",
+        "score": 24,
+        "user": {
+          "id": "58",
+          "firstName": "MIGUEL",
+          "lastName": "ALVAREZ",
+          "avatar": {
+            "id": "48"
+          }
+        },
+        "week": {
+          "id": "94",
+          "weekNumber": 3,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "863",
+        "score": 29,
+        "user": {
+          "id": "55",
+          "firstName": "JORGE",
+          "lastName": "NIKAIDO",
+          "avatar": {
+            "id": "71"
+          }
+        },
+        "week": {
+          "id": "94",
+          "weekNumber": 3,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "864",
+        "score": 32,
+        "user": {
+          "id": "33",
+          "firstName": "Mauricio",
+          "lastName": "Yanaculis",
+          "avatar": {
+            "id": "14"
+          }
+        },
+        "week": {
+          "id": "94",
+          "weekNumber": 3,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "865",
+        "score": 30,
+        "user": {
+          "id": "47",
+          "firstName": "FEDERICO",
+          "lastName": "BÁRCENA ",
+          "avatar": {
+            "id": "50"
+          }
+        },
+        "week": {
+          "id": "94",
+          "weekNumber": 3,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "866",
+        "score": 33,
+        "user": {
+          "id": "25",
+          "firstName": "Guillermo",
+          "lastName": "Sahagún",
+          "avatar": {
+            "id": "72"
+          }
+        },
+        "week": {
+          "id": "94",
+          "weekNumber": 3,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "867",
+        "score": 30,
+        "user": {
+          "id": "66",
+          "firstName": "PER",
+          "lastName": "FORSMAN",
+          "avatar": {
+            "id": "83"
+          }
+        },
+        "week": {
+          "id": "94",
+          "weekNumber": 3,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "868",
+        "score": 37,
+        "user": {
+          "id": "81",
+          "firstName": "Cristian",
+          "lastName": "Barrientos",
+          "avatar": {
+            "id": "69"
+          }
+        },
+        "week": {
+          "id": "94",
+          "weekNumber": 3,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "869",
+        "score": 30,
+        "user": {
+          "id": "43",
+          "firstName": "CORRADO",
+          "lastName": "DE GENNARO",
+          "avatar": {
+            "id": "88"
+          }
+        },
+        "week": {
+          "id": "94",
+          "weekNumber": 3,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "870",
+        "score": 22,
+        "user": {
+          "id": "8",
+          "firstName": "Julian",
+          "lastName": "Bravo",
+          "avatar": {
+            "id": "90"
+          }
+        },
+        "week": {
+          "id": "94",
+          "weekNumber": 3,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "871",
+        "score": 33,
+        "user": {
+          "id": "9",
+          "firstName": "Reyes",
+          "lastName": "Bravo",
+          "avatar": null
+        },
+        "week": {
+          "id": "94",
+          "weekNumber": 3,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "872",
+        "score": 27,
+        "user": {
+          "id": "10",
+          "firstName": "Jaime",
+          "lastName": "Cortes",
+          "avatar": null
+        },
+        "week": {
+          "id": "94",
+          "weekNumber": 3,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "873",
+        "score": 28,
+        "user": {
+          "id": "19",
+          "firstName": "Edgar",
+          "lastName": "Jaber",
+          "avatar": null
+        },
+        "week": {
+          "id": "94",
+          "weekNumber": 3,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "874",
+        "score": 28,
+        "user": {
+          "id": "47",
+          "firstName": "FEDERICO",
+          "lastName": "BÁRCENA ",
+          "avatar": {
+            "id": "50"
+          }
+        },
+        "week": {
+          "id": "95",
+          "weekNumber": 4,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "875",
+        "score": 29,
+        "user": {
+          "id": "43",
+          "firstName": "CORRADO",
+          "lastName": "DE GENNARO",
+          "avatar": {
+            "id": "88"
+          }
+        },
+        "week": {
+          "id": "95",
+          "weekNumber": 4,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "876",
+        "score": 17,
+        "user": {
+          "id": "52",
+          "firstName": "GUILLERMO",
+          "lastName": "TAME",
+          "avatar": {
+            "id": "59"
+          }
+        },
+        "week": {
+          "id": "95",
+          "weekNumber": 4,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "877",
+        "score": 30,
+        "user": {
+          "id": "33",
+          "firstName": "Mauricio",
+          "lastName": "Yanaculis",
+          "avatar": {
+            "id": "14"
+          }
+        },
+        "week": {
+          "id": "95",
+          "weekNumber": 4,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "878",
+        "score": 28,
+        "user": {
+          "id": "19",
+          "firstName": "Edgar",
+          "lastName": "Jaber",
+          "avatar": null
+        },
+        "week": {
+          "id": "95",
+          "weekNumber": 4,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "879",
+        "score": 24,
+        "user": {
+          "id": "58",
+          "firstName": "MIGUEL",
+          "lastName": "ALVAREZ",
+          "avatar": {
+            "id": "48"
+          }
+        },
+        "week": {
+          "id": "95",
+          "weekNumber": 4,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "880",
+        "score": 27,
+        "user": {
+          "id": "31",
+          "firstName": "Santiago",
+          "lastName": "Zubiria",
+          "avatar": {
+            "id": "56"
+          }
+        },
+        "week": {
+          "id": "95",
+          "weekNumber": 4,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "881",
+        "score": 29,
+        "user": {
+          "id": "9",
+          "firstName": "Reyes",
+          "lastName": "Bravo",
+          "avatar": null
+        },
+        "week": {
+          "id": "95",
+          "weekNumber": 4,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "882",
+        "score": 28,
+        "user": {
+          "id": "66",
+          "firstName": "PER",
+          "lastName": "FORSMAN",
+          "avatar": {
+            "id": "83"
+          }
+        },
+        "week": {
+          "id": "95",
+          "weekNumber": 4,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "884",
+        "score": 30,
+        "user": {
+          "id": "37",
+          "firstName": "ALBERTO",
+          "lastName": "ESPINOSA",
+          "avatar": null
+        },
+        "week": {
+          "id": "95",
+          "weekNumber": 4,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "886",
+        "score": 26,
+        "user": {
+          "id": "81",
+          "firstName": "Cristian",
+          "lastName": "Barrientos",
+          "avatar": {
+            "id": "69"
+          }
+        },
+        "week": {
+          "id": "95",
+          "weekNumber": 4,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "887",
+        "score": 30,
+        "user": {
+          "id": "8",
+          "firstName": "Julian",
+          "lastName": "Bravo",
+          "avatar": {
+            "id": "90"
+          }
+        },
+        "week": {
+          "id": "95",
+          "weekNumber": 4,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "919",
+        "score": 28,
+        "user": {
+          "id": "58",
+          "firstName": "MIGUEL",
+          "lastName": "ALVAREZ",
+          "avatar": {
+            "id": "48"
+          }
+        },
+        "week": {
+          "id": "96",
+          "weekNumber": 5,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "920",
+        "score": 29,
+        "user": {
+          "id": "47",
+          "firstName": "FEDERICO",
+          "lastName": "BÁRCENA ",
+          "avatar": {
+            "id": "50"
+          }
+        },
+        "week": {
+          "id": "96",
+          "weekNumber": 5,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "921",
+        "score": 32,
+        "user": {
+          "id": "51",
+          "firstName": "GUILLERMO",
+          "lastName": "PORTER",
+          "avatar": {
+            "id": "84"
+          }
+        },
+        "week": {
+          "id": "96",
+          "weekNumber": 5,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "922",
+        "score": 25,
+        "user": {
+          "id": "29",
+          "firstName": "Álvaro",
+          "lastName": "Vaqueiro",
+          "avatar": {
+            "id": "85"
+          }
+        },
+        "week": {
+          "id": "96",
+          "weekNumber": 5,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "923",
+        "score": 32,
+        "user": {
+          "id": "22",
+          "firstName": "Enrique",
+          "lastName": "Morales",
+          "avatar": null
+        },
+        "week": {
+          "id": "96",
+          "weekNumber": 5,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "924",
+        "score": 35,
+        "user": {
+          "id": "66",
+          "firstName": "PER",
+          "lastName": "FORSMAN",
+          "avatar": {
+            "id": "83"
+          }
+        },
+        "week": {
+          "id": "96",
+          "weekNumber": 5,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "925",
+        "score": 21,
+        "user": {
+          "id": "52",
+          "firstName": "GUILLERMO",
+          "lastName": "TAME",
+          "avatar": {
+            "id": "59"
+          }
+        },
+        "week": {
+          "id": "96",
+          "weekNumber": 5,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "926",
+        "score": 18,
+        "user": {
+          "id": "32",
+          "firstName": "Ricardo",
+          "lastName": "Zúñiga",
+          "avatar": {
+            "id": "89"
+          }
+        },
+        "week": {
+          "id": "96",
+          "weekNumber": 5,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "927",
+        "score": 27,
+        "user": {
+          "id": "21",
+          "firstName": "Ricardo",
+          "lastName": "Martinez",
+          "avatar": null
+        },
+        "week": {
+          "id": "96",
+          "weekNumber": 5,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "928",
+        "score": 32,
+        "user": {
+          "id": "42",
+          "firstName": "CHARLIE",
+          "lastName": "PILLIOD",
+          "avatar": null
+        },
+        "week": {
+          "id": "96",
+          "weekNumber": 5,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "929",
+        "score": 32,
+        "user": {
+          "id": "43",
+          "firstName": "CORRADO",
+          "lastName": "DE GENNARO",
+          "avatar": {
+            "id": "88"
+          }
+        },
+        "week": {
+          "id": "96",
+          "weekNumber": 5,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "930",
+        "score": 33,
+        "user": {
+          "id": "26",
+          "firstName": "Alfredo",
+          "lastName": "Sánchez",
+          "avatar": {
+            "id": "49"
+          }
+        },
+        "week": {
+          "id": "129",
+          "weekNumber": 6,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "931",
+        "score": 31,
+        "user": {
+          "id": "52",
+          "firstName": "GUILLERMO",
+          "lastName": "TAME",
+          "avatar": {
+            "id": "59"
+          }
+        },
+        "week": {
+          "id": "129",
+          "weekNumber": 6,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "932",
+        "score": 31,
+        "user": {
+          "id": "22",
+          "firstName": "Enrique",
+          "lastName": "Morales",
+          "avatar": null
+        },
+        "week": {
+          "id": "129",
+          "weekNumber": 6,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "933",
+        "score": 28,
+        "user": {
+          "id": "58",
+          "firstName": "MIGUEL",
+          "lastName": "ALVAREZ",
+          "avatar": {
+            "id": "48"
+          }
+        },
+        "week": {
+          "id": "129",
+          "weekNumber": 6,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "934",
+        "score": 28,
+        "user": {
+          "id": "9",
+          "firstName": "Reyes",
+          "lastName": "Bravo",
+          "avatar": null
+        },
+        "week": {
+          "id": "129",
+          "weekNumber": 6,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "935",
+        "score": 31,
+        "user": {
+          "id": "66",
+          "firstName": "PER",
+          "lastName": "FORSMAN",
+          "avatar": {
+            "id": "83"
+          }
+        },
+        "week": {
+          "id": "129",
+          "weekNumber": 6,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "936",
+        "score": 32,
+        "user": {
+          "id": "61",
+          "firstName": "GERARDO",
+          "lastName": "ALVAREZ",
+          "avatar": null
+        },
+        "week": {
+          "id": "129",
+          "weekNumber": 6,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "937",
+        "score": 38,
+        "user": {
+          "id": "8",
+          "firstName": "Julian",
+          "lastName": "Bravo",
+          "avatar": {
+            "id": "90"
+          }
+        },
+        "week": {
+          "id": "129",
+          "weekNumber": 6,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "938",
+        "score": 23,
+        "user": {
+          "id": "43",
+          "firstName": "CORRADO",
+          "lastName": "DE GENNARO",
+          "avatar": {
+            "id": "88"
+          }
+        },
+        "week": {
+          "id": "129",
+          "weekNumber": 6,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "939",
+        "score": 33,
+        "user": {
+          "id": "26",
+          "firstName": "Alfredo",
+          "lastName": "Sánchez",
+          "avatar": {
+            "id": "49"
+          }
+        },
+        "week": {
+          "id": "130",
+          "weekNumber": 7,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "940",
+        "score": 30,
+        "user": {
+          "id": "19",
+          "firstName": "Edgar",
+          "lastName": "Jaber",
+          "avatar": null
+        },
+        "week": {
+          "id": "130",
+          "weekNumber": 7,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "941",
+        "score": 25,
+        "user": {
+          "id": "47",
+          "firstName": "FEDERICO",
+          "lastName": "BÁRCENA ",
+          "avatar": {
+            "id": "50"
+          }
+        },
+        "week": {
+          "id": "130",
+          "weekNumber": 7,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "942",
+        "score": 28,
+        "user": {
+          "id": "27",
+          "firstName": "Diego",
+          "lastName": "Sánchez",
+          "avatar": {
+            "id": "57"
+          }
+        },
+        "week": {
+          "id": "130",
+          "weekNumber": 7,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "943",
+        "score": 29,
+        "user": {
+          "id": "66",
+          "firstName": "PER",
+          "lastName": "FORSMAN",
+          "avatar": {
+            "id": "83"
+          }
+        },
+        "week": {
+          "id": "130",
+          "weekNumber": 7,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "944",
+        "score": 30,
+        "user": {
+          "id": "81",
+          "firstName": "Cristian",
+          "lastName": "Barrientos",
+          "avatar": {
+            "id": "69"
+          }
+        },
+        "week": {
+          "id": "130",
+          "weekNumber": 7,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "945",
+        "score": 30,
+        "user": {
+          "id": "8",
+          "firstName": "Julian",
+          "lastName": "Bravo",
+          "avatar": {
+            "id": "90"
+          }
+        },
+        "week": {
+          "id": "130",
+          "weekNumber": 7,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "946",
+        "score": 38,
+        "user": {
+          "id": "25",
+          "firstName": "Guillermo",
+          "lastName": "Sahagún",
+          "avatar": {
+            "id": "72"
+          }
+        },
+        "week": {
+          "id": "130",
+          "weekNumber": 7,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "947",
+        "score": 24,
+        "user": {
+          "id": "9",
+          "firstName": "Reyes",
+          "lastName": "Bravo",
+          "avatar": null
+        },
+        "week": {
+          "id": "130",
+          "weekNumber": 7,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "948",
+        "score": 25,
+        "user": {
+          "id": "58",
+          "firstName": "MIGUEL",
+          "lastName": "ALVAREZ",
+          "avatar": {
+            "id": "48"
+          }
+        },
+        "week": {
+          "id": "131",
+          "weekNumber": 8,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "949",
+        "score": 29,
+        "user": {
+          "id": "19",
+          "firstName": "Edgar",
+          "lastName": "Jaber",
+          "avatar": null
+        },
+        "week": {
+          "id": "131",
+          "weekNumber": 8,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "950",
+        "score": 35,
+        "user": {
+          "id": "43",
+          "firstName": "CORRADO",
+          "lastName": "DE GENNARO",
+          "avatar": {
+            "id": "88"
+          }
+        },
+        "week": {
+          "id": "131",
+          "weekNumber": 8,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "951",
+        "score": 35,
+        "user": {
+          "id": "10",
+          "firstName": "Jaime",
+          "lastName": "Cortes",
+          "avatar": null
+        },
+        "week": {
+          "id": "131",
+          "weekNumber": 8,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "952",
+        "score": 27,
+        "user": {
+          "id": "29",
+          "firstName": "Álvaro",
+          "lastName": "Vaqueiro",
+          "avatar": {
+            "id": "85"
+          }
+        },
+        "week": {
+          "id": "131",
+          "weekNumber": 8,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "953",
+        "score": 34,
+        "user": {
+          "id": "25",
+          "firstName": "Guillermo",
+          "lastName": "Sahagún",
+          "avatar": {
+            "id": "72"
+          }
+        },
+        "week": {
+          "id": "131",
+          "weekNumber": 8,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "954",
+        "score": 31,
+        "user": {
+          "id": "34",
+          "firstName": "ALberto",
+          "lastName": "Jaber Jr.",
+          "avatar": null
+        },
+        "week": {
+          "id": "131",
+          "weekNumber": 8,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "955",
+        "score": 22,
+        "user": {
+          "id": "83",
+          "firstName": "Leo",
+          "lastName": "Schlesinger",
+          "avatar": null
+        },
+        "week": {
+          "id": "131",
+          "weekNumber": 8,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "957",
+        "score": 33,
+        "user": {
+          "id": "47",
+          "firstName": "FEDERICO",
+          "lastName": "BÁRCENA ",
+          "avatar": {
+            "id": "50"
+          }
+        },
+        "week": {
+          "id": "131",
+          "weekNumber": 8,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "958",
+        "score": 35,
+        "user": {
+          "id": "9",
+          "firstName": "Reyes",
+          "lastName": "Bravo",
+          "avatar": null
+        },
+        "week": {
+          "id": "131",
+          "weekNumber": 8,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "960",
+        "score": 37,
+        "user": {
+          "id": "81",
+          "firstName": "Cristian",
+          "lastName": "Barrientos",
+          "avatar": {
+            "id": "69"
+          }
+        },
+        "week": {
+          "id": "131",
+          "weekNumber": 8,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "961",
+        "score": 30,
+        "user": {
+          "id": "5",
+          "firstName": "Luis",
+          "lastName": "Arteaga",
+          "avatar": {
+            "id": "68"
+          }
+        },
+        "week": {
+          "id": "131",
+          "weekNumber": 8,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "962",
+        "score": 27,
+        "user": {
+          "id": "26",
+          "firstName": "Alfredo",
+          "lastName": "Sánchez",
+          "avatar": {
+            "id": "49"
+          }
+        },
+        "week": {
+          "id": "132",
+          "weekNumber": 9,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "963",
+        "score": 26,
+        "user": {
+          "id": "37",
+          "firstName": "ALBERTO",
+          "lastName": "ESPINOSA",
+          "avatar": null
+        },
+        "week": {
+          "id": "132",
+          "weekNumber": 9,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "964",
+        "score": 28,
+        "user": {
+          "id": "71",
+          "firstName": "EMILIO",
+          "lastName": "OCEJO",
+          "avatar": null
+        },
+        "week": {
+          "id": "132",
+          "weekNumber": 9,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "965",
+        "score": 41,
+        "user": {
+          "id": "43",
+          "firstName": "CORRADO",
+          "lastName": "DE GENNARO",
+          "avatar": {
+            "id": "88"
+          }
+        },
+        "week": {
+          "id": "132",
+          "weekNumber": 9,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "966",
+        "score": 34,
+        "user": {
+          "id": "19",
+          "firstName": "Edgar",
+          "lastName": "Jaber",
+          "avatar": null
+        },
+        "week": {
+          "id": "132",
+          "weekNumber": 9,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "967",
+        "score": 34,
+        "user": {
+          "id": "33",
+          "firstName": "Mauricio",
+          "lastName": "Yanaculis",
+          "avatar": {
+            "id": "14"
+          }
+        },
+        "week": {
+          "id": "132",
+          "weekNumber": 9,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "968",
+        "score": 33,
+        "user": {
+          "id": "18",
+          "firstName": "Alberto",
+          "lastName": "Jaber",
+          "avatar": null
+        },
+        "week": {
+          "id": "132",
+          "weekNumber": 9,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "969",
+        "score": 29,
+        "user": {
+          "id": "58",
+          "firstName": "MIGUEL",
+          "lastName": "ALVAREZ",
+          "avatar": {
+            "id": "48"
+          }
+        },
+        "week": {
+          "id": "132",
+          "weekNumber": 9,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "970",
+        "score": 30,
+        "user": {
+          "id": "9",
+          "firstName": "Reyes",
+          "lastName": "Bravo",
+          "avatar": null
+        },
+        "week": {
+          "id": "132",
+          "weekNumber": 9,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "971",
+        "score": 30,
+        "user": {
+          "id": "25",
+          "firstName": "Guillermo",
+          "lastName": "Sahagún",
+          "avatar": {
+            "id": "72"
+          }
+        },
+        "week": {
+          "id": "132",
+          "weekNumber": 9,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "972",
+        "score": 33,
+        "user": {
+          "id": "47",
+          "firstName": "FEDERICO",
+          "lastName": "BÁRCENA ",
+          "avatar": {
+            "id": "50"
+          }
+        },
+        "week": {
+          "id": "132",
+          "weekNumber": 9,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "973",
+        "score": 35,
+        "user": {
+          "id": "30",
+          "firstName": "Sergio",
+          "lastName": "Villalobos",
+          "avatar": null
+        },
+        "week": {
+          "id": "132",
+          "weekNumber": 9,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "974",
+        "score": 36,
+        "user": {
+          "id": "70",
+          "firstName": "JORGE",
+          "lastName": "SHAW",
+          "avatar": null
+        },
+        "week": {
+          "id": "132",
+          "weekNumber": 9,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "975",
+        "score": 29,
+        "user": {
+          "id": "83",
+          "firstName": "Leo",
+          "lastName": "Schlesinger",
+          "avatar": null
+        },
+        "week": {
+          "id": "132",
+          "weekNumber": 9,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "976",
+        "score": 32,
+        "user": {
+          "id": "10",
+          "firstName": "Jaime",
+          "lastName": "Cortes",
+          "avatar": null
+        },
+        "week": {
+          "id": "133",
+          "weekNumber": 10,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "977",
+        "score": 38,
+        "user": {
+          "id": "22",
+          "firstName": "Enrique",
+          "lastName": "Morales",
+          "avatar": null
+        },
+        "week": {
+          "id": "133",
+          "weekNumber": 10,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "978",
+        "score": 35,
+        "user": {
+          "id": "26",
+          "firstName": "Alfredo",
+          "lastName": "Sánchez",
+          "avatar": {
+            "id": "49"
+          }
+        },
+        "week": {
+          "id": "133",
+          "weekNumber": 10,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "979",
+        "score": 29,
+        "user": {
+          "id": "33",
+          "firstName": "Mauricio",
+          "lastName": "Yanaculis",
+          "avatar": {
+            "id": "14"
+          }
+        },
+        "week": {
+          "id": "133",
+          "weekNumber": 10,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "980",
+        "score": 36,
+        "user": {
+          "id": "25",
+          "firstName": "Guillermo",
+          "lastName": "Sahagún",
+          "avatar": {
+            "id": "72"
+          }
+        },
+        "week": {
+          "id": "133",
+          "weekNumber": 10,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "981",
+        "score": 30,
+        "user": {
+          "id": "47",
+          "firstName": "FEDERICO",
+          "lastName": "BÁRCENA ",
+          "avatar": {
+            "id": "50"
+          }
+        },
+        "week": {
+          "id": "133",
+          "weekNumber": 10,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "982",
+        "score": 38,
+        "user": {
+          "id": "45",
+          "firstName": "EDUARDO",
+          "lastName": "ALAMAN",
+          "avatar": null
+        },
+        "week": {
+          "id": "133",
+          "weekNumber": 10,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "983",
+        "score": 33,
+        "user": {
+          "id": "43",
+          "firstName": "CORRADO",
+          "lastName": "DE GENNARO",
+          "avatar": {
+            "id": "88"
+          }
+        },
+        "week": {
+          "id": "133",
+          "weekNumber": 10,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "984",
+        "score": 37,
+        "user": {
+          "id": "21",
+          "firstName": "Ricardo",
+          "lastName": "Martinez",
+          "avatar": null
+        },
+        "week": {
+          "id": "133",
+          "weekNumber": 10,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "985",
+        "score": 30,
+        "user": {
+          "id": "81",
+          "firstName": "Cristian",
+          "lastName": "Barrientos",
+          "avatar": {
+            "id": "69"
+          }
+        },
+        "week": {
+          "id": "133",
+          "weekNumber": 10,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "986",
+        "score": 29,
+        "user": {
+          "id": "8",
+          "firstName": "Julian",
+          "lastName": "Bravo",
+          "avatar": {
+            "id": "90"
+          }
+        },
+        "week": {
+          "id": "133",
+          "weekNumber": 10,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "987",
+        "score": 38,
+        "user": {
+          "id": "9",
+          "firstName": "Reyes",
+          "lastName": "Bravo",
+          "avatar": null
+        },
+        "week": {
+          "id": "133",
+          "weekNumber": 10,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "1021",
+        "score": 32,
+        "user": {
+          "id": "25",
+          "firstName": "Guillermo",
+          "lastName": "Sahagún",
+          "avatar": {
+            "id": "72"
+          }
+        },
+        "week": {
+          "id": "134",
+          "weekNumber": 11,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "1022",
+        "score": 34,
+        "user": {
+          "id": "19",
+          "firstName": "Edgar",
+          "lastName": "Jaber",
+          "avatar": null
+        },
+        "week": {
+          "id": "134",
+          "weekNumber": 11,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "1023",
+        "score": 33,
+        "user": {
+          "id": "47",
+          "firstName": "FEDERICO",
+          "lastName": "BÁRCENA ",
+          "avatar": {
+            "id": "50"
+          }
+        },
+        "week": {
+          "id": "134",
+          "weekNumber": 11,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "1024",
+        "score": 27,
+        "user": {
+          "id": "22",
+          "firstName": "Enrique",
+          "lastName": "Morales",
+          "avatar": null
+        },
+        "week": {
+          "id": "134",
+          "weekNumber": 11,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "1025",
+        "score": 27,
+        "user": {
+          "id": "55",
+          "firstName": "JORGE",
+          "lastName": "NIKAIDO",
+          "avatar": {
+            "id": "71"
+          }
+        },
+        "week": {
+          "id": "134",
+          "weekNumber": 11,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "1026",
+        "score": 15,
+        "user": {
+          "id": "71",
+          "firstName": "EMILIO",
+          "lastName": "OCEJO",
+          "avatar": null
+        },
+        "week": {
+          "id": "134",
+          "weekNumber": 11,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "1027",
+        "score": 36,
+        "user": {
+          "id": "43",
+          "firstName": "CORRADO",
+          "lastName": "DE GENNARO",
+          "avatar": {
+            "id": "88"
+          }
+        },
+        "week": {
+          "id": "134",
+          "weekNumber": 11,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "1028",
+        "score": 25,
+        "user": {
+          "id": "84",
+          "firstName": "Fernando",
+          "lastName": "Guareschi",
+          "avatar": null
+        },
+        "week": {
+          "id": "134",
+          "weekNumber": 11,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "1029",
+        "score": 38,
+        "user": {
+          "id": "50",
+          "firstName": "GERARDO",
+          "lastName": "PILGRAM",
+          "avatar": null
+        },
+        "week": {
+          "id": "134",
+          "weekNumber": 11,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "1030",
+        "score": 36,
+        "user": {
+          "id": "42",
+          "firstName": "CHARLIE",
+          "lastName": "PILLIOD",
+          "avatar": null
+        },
+        "week": {
+          "id": "134",
+          "weekNumber": 11,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "1031",
+        "score": 38,
+        "user": {
+          "id": "83",
+          "firstName": "Leo",
+          "lastName": "Schlesinger",
+          "avatar": null
+        },
+        "week": {
+          "id": "134",
+          "weekNumber": 11,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "1032",
+        "score": 31,
+        "user": {
+          "id": "10",
+          "firstName": "Jaime",
+          "lastName": "Cortes",
+          "avatar": null
+        },
+        "week": {
+          "id": "134",
+          "weekNumber": 11,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "1033",
+        "score": 32,
+        "user": {
+          "id": "33",
+          "firstName": "Mauricio",
+          "lastName": "Yanaculis",
+          "avatar": {
+            "id": "14"
+          }
+        },
+        "week": {
+          "id": "135",
+          "weekNumber": 12,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "1034",
+        "score": 26,
+        "user": {
+          "id": "25",
+          "firstName": "Guillermo",
+          "lastName": "Sahagún",
+          "avatar": {
+            "id": "72"
+          }
+        },
+        "week": {
+          "id": "135",
+          "weekNumber": 12,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "1035",
+        "score": 32,
+        "user": {
+          "id": "19",
+          "firstName": "Edgar",
+          "lastName": "Jaber",
+          "avatar": null
+        },
+        "week": {
+          "id": "135",
+          "weekNumber": 12,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "1036",
+        "score": 26,
+        "user": {
+          "id": "47",
+          "firstName": "FEDERICO",
+          "lastName": "BÁRCENA ",
+          "avatar": {
+            "id": "50"
+          }
+        },
+        "week": {
+          "id": "135",
+          "weekNumber": 12,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "1037",
+        "score": 30,
+        "user": {
+          "id": "11",
+          "firstName": "Alberto",
+          "lastName": "del Moral",
+          "avatar": {
+            "id": "58"
+          }
+        },
+        "week": {
+          "id": "135",
+          "weekNumber": 12,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "1038",
+        "score": 28,
+        "user": {
+          "id": "9",
+          "firstName": "Reyes",
+          "lastName": "Bravo",
+          "avatar": null
+        },
+        "week": {
+          "id": "135",
+          "weekNumber": 12,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "1039",
+        "score": 29,
+        "user": {
+          "id": "70",
+          "firstName": "JORGE",
+          "lastName": "SHAW",
+          "avatar": null
+        },
+        "week": {
+          "id": "135",
+          "weekNumber": 12,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "1040",
+        "score": 36,
+        "user": {
+          "id": "52",
+          "firstName": "GUILLERMO",
+          "lastName": "TAME",
+          "avatar": {
+            "id": "59"
+          }
+        },
+        "week": {
+          "id": "135",
+          "weekNumber": 12,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "1041",
+        "score": 23,
+        "user": {
+          "id": "84",
+          "firstName": "Fernando",
+          "lastName": "Guareschi",
+          "avatar": null
+        },
+        "week": {
+          "id": "135",
+          "weekNumber": 12,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "1042",
+        "score": 32,
+        "user": {
+          "id": "60",
+          "firstName": "ROBERTO",
+          "lastName": "ISAAC",
+          "avatar": null
+        },
+        "week": {
+          "id": "135",
+          "weekNumber": 12,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "1044",
+        "score": 25,
+        "user": {
+          "id": "29",
+          "firstName": "Álvaro",
+          "lastName": "Vaqueiro",
+          "avatar": {
+            "id": "85"
+          }
+        },
+        "week": {
+          "id": "136",
+          "weekNumber": 13,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "1045",
+        "score": 30,
+        "user": {
+          "id": "22",
+          "firstName": "Enrique",
+          "lastName": "Morales",
+          "avatar": null
+        },
+        "week": {
+          "id": "136",
+          "weekNumber": 13,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "1046",
+        "score": 29,
+        "user": {
+          "id": "70",
+          "firstName": "JORGE",
+          "lastName": "SHAW",
+          "avatar": null
+        },
+        "week": {
+          "id": "136",
+          "weekNumber": 13,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "1047",
+        "score": 26,
+        "user": {
+          "id": "52",
+          "firstName": "GUILLERMO",
+          "lastName": "TAME",
+          "avatar": {
+            "id": "59"
+          }
+        },
+        "week": {
+          "id": "136",
+          "weekNumber": 13,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "1048",
+        "score": 37,
+        "user": {
+          "id": "43",
+          "firstName": "CORRADO",
+          "lastName": "DE GENNARO",
+          "avatar": {
+            "id": "88"
+          }
+        },
+        "week": {
+          "id": "136",
+          "weekNumber": 13,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "1049",
+        "score": 22,
+        "user": {
+          "id": "55",
+          "firstName": "JORGE",
+          "lastName": "NIKAIDO",
+          "avatar": {
+            "id": "71"
+          }
+        },
+        "week": {
+          "id": "136",
+          "weekNumber": 13,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "1050",
+        "score": 23,
+        "user": {
+          "id": "58",
+          "firstName": "MIGUEL",
+          "lastName": "ALVAREZ",
+          "avatar": {
+            "id": "48"
+          }
+        },
+        "week": {
+          "id": "136",
+          "weekNumber": 13,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "1051",
+        "score": 38,
+        "user": {
+          "id": "26",
+          "firstName": "Alfredo",
+          "lastName": "Sánchez",
+          "avatar": {
+            "id": "49"
+          }
+        },
+        "week": {
+          "id": "136",
+          "weekNumber": 13,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "1052",
+        "score": 33,
+        "user": {
+          "id": "45",
+          "firstName": "EDUARDO",
+          "lastName": "ALAMAN",
+          "avatar": null
+        },
+        "week": {
+          "id": "136",
+          "weekNumber": 13,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "1053",
+        "score": 19,
+        "user": {
+          "id": "83",
+          "firstName": "Leo",
+          "lastName": "Schlesinger",
+          "avatar": null
+        },
+        "week": {
+          "id": "136",
+          "weekNumber": 13,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "1054",
+        "score": 37,
+        "user": {
+          "id": "22",
+          "firstName": "Enrique",
+          "lastName": "Morales",
+          "avatar": null
+        },
+        "week": {
+          "id": "137",
+          "weekNumber": 14,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "1055",
+        "score": 33,
+        "user": {
+          "id": "31",
+          "firstName": "Santiago",
+          "lastName": "Zubiria",
+          "avatar": {
+            "id": "56"
+          }
+        },
+        "week": {
+          "id": "137",
+          "weekNumber": 14,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "1056",
+        "score": 34,
+        "user": {
+          "id": "43",
+          "firstName": "CORRADO",
+          "lastName": "DE GENNARO",
+          "avatar": {
+            "id": "88"
+          }
+        },
+        "week": {
+          "id": "137",
+          "weekNumber": 14,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "1057",
+        "score": 34,
+        "user": {
+          "id": "70",
+          "firstName": "JORGE",
+          "lastName": "SHAW",
+          "avatar": null
+        },
+        "week": {
+          "id": "137",
+          "weekNumber": 14,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "1058",
+        "score": 29,
+        "user": {
+          "id": "33",
+          "firstName": "Mauricio",
+          "lastName": "Yanaculis",
+          "avatar": {
+            "id": "14"
+          }
+        },
+        "week": {
+          "id": "137",
+          "weekNumber": 14,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "1059",
+        "score": 32,
+        "user": {
+          "id": "55",
+          "firstName": "JORGE",
+          "lastName": "NIKAIDO",
+          "avatar": {
+            "id": "71"
+          }
+        },
+        "week": {
+          "id": "137",
+          "weekNumber": 14,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "1060",
+        "score": 30,
+        "user": {
+          "id": "60",
+          "firstName": "ROBERTO",
+          "lastName": "ISAAC",
+          "avatar": null
+        },
+        "week": {
+          "id": "137",
+          "weekNumber": 14,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "1061",
+        "score": 37,
+        "user": {
+          "id": "27",
+          "firstName": "Diego",
+          "lastName": "Sánchez",
+          "avatar": {
+            "id": "57"
+          }
+        },
+        "week": {
+          "id": "137",
+          "weekNumber": 14,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "1062",
+        "score": 21,
+        "user": {
+          "id": "58",
+          "firstName": "MIGUEL",
+          "lastName": "ALVAREZ",
+          "avatar": {
+            "id": "48"
+          }
+        },
+        "week": {
+          "id": "137",
+          "weekNumber": 14,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "1064",
+        "score": 38,
+        "user": {
+          "id": "10",
+          "firstName": "Jaime",
+          "lastName": "Cortes",
+          "avatar": null
+        },
+        "week": {
+          "id": "137",
+          "weekNumber": 14,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "1065",
+        "score": 33,
+        "user": {
+          "id": "66",
+          "firstName": "PER",
+          "lastName": "FORSMAN",
+          "avatar": {
+            "id": "83"
+          }
+        },
+        "week": {
+          "id": "137",
+          "weekNumber": 14,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "1066",
+        "score": 31,
+        "user": {
+          "id": "81",
+          "firstName": "Cristian",
+          "lastName": "Barrientos",
+          "avatar": {
+            "id": "69"
+          }
+        },
+        "week": {
+          "id": "137",
+          "weekNumber": 14,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "1067",
+        "score": 14,
+        "user": {
+          "id": "54",
+          "firstName": "JORGE",
+          "lastName": "CARRASCO",
+          "avatar": null
+        },
+        "week": {
+          "id": "137",
+          "weekNumber": 14,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "1068",
+        "score": 29,
+        "user": {
+          "id": "21",
+          "firstName": "Ricardo",
+          "lastName": "Martinez",
+          "avatar": null
+        },
+        "week": {
+          "id": "137",
+          "weekNumber": 14,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "1069",
+        "score": 35,
+        "user": {
+          "id": "67",
+          "firstName": "HENRIK",
+          "lastName": "BERGSTROM",
+          "avatar": {
+            "id": "86"
+          }
+        },
+        "week": {
+          "id": "137",
+          "weekNumber": 14,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "1070",
+        "score": 33,
+        "user": {
+          "id": "8",
+          "firstName": "Julian",
+          "lastName": "Bravo",
+          "avatar": {
+            "id": "90"
+          }
+        },
+        "week": {
+          "id": "137",
+          "weekNumber": 14,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "1072",
+        "score": 28,
+        "user": {
+          "id": "52",
+          "firstName": "GUILLERMO",
+          "lastName": "TAME",
+          "avatar": {
+            "id": "59"
+          }
+        },
+        "week": {
+          "id": "137",
+          "weekNumber": 14,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "1073",
+        "score": 32,
+        "user": {
+          "id": "47",
+          "firstName": "FEDERICO",
+          "lastName": "BÁRCENA ",
+          "avatar": {
+            "id": "50"
+          }
+        },
+        "week": {
+          "id": "137",
+          "weekNumber": 14,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "1074",
+        "score": 33,
+        "user": {
+          "id": "45",
+          "firstName": "EDUARDO",
+          "lastName": "ALAMAN",
+          "avatar": null
+        },
+        "week": {
+          "id": "137",
+          "weekNumber": 14,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "1075",
+        "score": 26,
+        "user": {
+          "id": "32",
+          "firstName": "Ricardo",
+          "lastName": "Zúñiga",
+          "avatar": {
+            "id": "89"
+          }
+        },
+        "week": {
+          "id": "137",
+          "weekNumber": 14,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "1076",
+        "score": 35,
+        "user": {
+          "id": "26",
+          "firstName": "Alfredo",
+          "lastName": "Sánchez",
+          "avatar": {
+            "id": "49"
+          }
+        },
+        "week": {
+          "id": "137",
+          "weekNumber": 14,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "1077",
+        "score": 29,
+        "user": {
+          "id": "5",
+          "firstName": "Luis",
+          "lastName": "Arteaga",
+          "avatar": {
+            "id": "68"
+          }
+        },
+        "week": {
+          "id": "137",
+          "weekNumber": 14,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "1078",
+        "score": 34,
+        "user": {
+          "id": "48",
+          "firstName": "NITO",
+          "lastName": "GONZALEZ",
+          "avatar": null
+        },
+        "week": {
+          "id": "137",
+          "weekNumber": 14,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "1079",
+        "score": 0,
+        "user": {
+          "id": "9",
+          "firstName": "Reyes",
+          "lastName": "Bravo",
+          "avatar": null
+        },
+        "week": {
+          "id": "137",
+          "weekNumber": 14,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "1080",
+        "score": 26,
+        "user": {
+          "id": "83",
+          "firstName": "Leo",
+          "lastName": "Schlesinger",
+          "avatar": null
+        },
+        "week": {
+          "id": "137",
+          "weekNumber": 14,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "1081",
+        "score": 22,
+        "user": {
+          "id": "42",
+          "firstName": "CHARLIE",
+          "lastName": "PILLIOD",
+          "avatar": null
+        },
+        "week": {
+          "id": "137",
+          "weekNumber": 14,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "1082",
+        "score": 39,
+        "user": {
+          "id": "29",
+          "firstName": "Álvaro",
+          "lastName": "Vaqueiro",
+          "avatar": {
+            "id": "85"
+          }
+        },
+        "week": {
+          "id": "137",
+          "weekNumber": 14,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "1083",
+        "score": 28,
+        "user": {
+          "id": "30",
+          "firstName": "Sergio",
+          "lastName": "Villalobos",
+          "avatar": null
+        },
+        "week": {
+          "id": "137",
+          "weekNumber": 14,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "1084",
+        "score": 23,
+        "user": {
+          "id": "84",
+          "firstName": "Fernando",
+          "lastName": "Guareschi",
+          "avatar": null
+        },
+        "week": {
+          "id": "137",
+          "weekNumber": 14,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "1085",
+        "score": 35,
+        "user": {
+          "id": "71",
+          "firstName": "EMILIO",
+          "lastName": "OCEJO",
+          "avatar": null
+        },
+        "week": {
+          "id": "137",
+          "weekNumber": 14,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      },
+      {
+        "id": "1086",
+        "score": 30,
+        "user": {
+          "id": "34",
+          "firstName": "ALberto",
+          "lastName": "Jaber Jr.",
+          "avatar": null
+        },
+        "week": {
+          "id": "137",
+          "weekNumber": 14,
+          "year": {
+            "id": "3",
+            "year": 2021
+          }
+        }
+      }
+    ]
+  }
+}
